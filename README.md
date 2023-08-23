@@ -9,16 +9,16 @@ Modal dialog component for ReactJS.
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
 ```shell
-$ npm i OC14simple-react-modal-plugin
-$ yarn add OC14simple-react-modal-plugin
+$ npm i oc14-simple-react-modal-plugin
+$ yarn add oc14-simple-react-modal-plugin
 ```
 
-To use OC14simple-react-modal-plugin in a React app:
+To use oc14-simple-react-modal-plugin in a React app:
 
 - In a react app, import the component:
 
 ```javascript
-import { HrnetModal } from "OC14simple-react-modal-plugin"
+import { HrnetModal } from "oc14-simple-react-modal-plugin"
 ```
 - To setup the component's state, add:
 
@@ -90,10 +90,10 @@ const [openModal, setOpenModal] = useState(false)
 
 ## Exemple
 
-Here is  a simple example of OC14simple-react-modal-plugin being used:
+Here is  a simple example of oc14-simple-react-modal-plugin being used:
 
 ```javascript
-import { HrnetModal } from "OC14simple-react-modal-plugin"
+import { HrnetModal } from "oc14-simple-react-modal-plugin"
 import { useState } from "react"
 import styled from 'styled-components'
 
