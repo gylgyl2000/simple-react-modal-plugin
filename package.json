@@ -2,7 +2,7 @@
   "name": "oc14-simple-react-modal-plugin",
   "description": "Simple responsive modal component for ReactJS - OC14 HRnet",
   "author": "gylgyl2000",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
