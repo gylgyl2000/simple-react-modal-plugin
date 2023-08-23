@@ -9,8 +9,8 @@ Modal dialog component for ReactJS.
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
 ```shell
-$ npm i @gylgyl2000/simple-react-modal-plugin
-$ yarn add @gylgyl2000/simple-react-modal-plugin
+$ npm i simple-react-modal-plugin
+$ yarn add simple-react-modal-plugin
 ```
 
 To use simple-react-modal-plugin in a React app:
@@ -18,7 +18,7 @@ To use simple-react-modal-plugin in a React app:
 - In a react app, import the component:
 
 ```javascript
-import { HrnetModal } from "@gylgyl2000/simple-react-modal-plugin"
+import { HrnetModal } from "simple-react-modal-plugin"
 ```
 - To setup the component's state, add:
 
@@ -93,7 +93,7 @@ const [openModal, setOpenModal] = useState(false)
 Here is  a simple example of simple-react-modal-plugin being used:
 
 ```javascript
-import { HrnetModal } from "@gylgyl2000/simple-react-modal-plugin"
+import { HrnetModal } from "simple-react-modal-plugin"
 import { useState } from "react"
 import styled from 'styled-components'
 

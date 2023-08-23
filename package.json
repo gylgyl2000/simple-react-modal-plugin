@@ -1,8 +1,8 @@
 {
-  "name": "@gylgyl2000/simple-react-modal-plugin",
+  "name": "simple-react-modal-plugin",
   "description": "Simple responsive modal component for ReactJS - OC14 HRnet",
   "author": "gylgyl2000",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
