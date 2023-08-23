@@ -1,6 +1,5 @@
 import { useState } from "react"
 import styled, { keyframes } from 'styled-components'
-import "./HrnetModal.css"
 
 export default function HrnetModal({
     open,
