@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = HrnetModal;
 var _taggedTemplateLiteral2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/taggedTemplateLiteral"));
 var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/slicedToArray"));
-var _react = require("react");
+var _react = _interopRequireWildcard(require("react"));
 var _styledComponents = _interopRequireWildcard(require("styled-components"));
 var _templateObject, _templateObject2, _templateObject3, _templateObject4, _templateObject5, _templateObject6, _templateObject7, _templateObject8, _templateObject9, _templateObject10, _templateObject11, _templateObject12, _templateObject13;
 function HrnetModal(_ref) {
@@ -58,12 +58,12 @@ function HrnetModal(_ref) {
       return !toggle;
     });
   };
-  return /*#__PURE__*/React.createElement(React.Fragment, null, open ? /*#__PURE__*/React.createElement(StyleBody, null, /*#__PURE__*/React.createElement(Backdrop, {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, open ? /*#__PURE__*/_react.default.createElement(StyleBody, null, /*#__PURE__*/_react.default.createElement(Backdrop, {
     "aria-hidden": "true",
     style: {
       backgroundColor: backdropBg
     }
-  }), /*#__PURE__*/React.createElement(Wrapper, null, /*#__PURE__*/React.createElement(Modal, {
+  }), /*#__PURE__*/_react.default.createElement(Wrapper, null, /*#__PURE__*/_react.default.createElement(Modal, {
     id: "dialog-:r1:",
     role: "dialog",
     "aria-modal": "true",
@@ -71,13 +71,13 @@ function HrnetModal(_ref) {
     style: {
       width: modalWidth + 'px'
     }
-  }, /*#__PURE__*/React.createElement(Dialog, {
+  }, /*#__PURE__*/_react.default.createElement(Dialog, {
     role: "document"
-  }, /*#__PURE__*/React.createElement(ModalContent, {
+  }, /*#__PURE__*/_react.default.createElement(ModalContent, {
     style: {
       backgroundColor: modalBg
     }
-  }, /*#__PURE__*/React.createElement(ModalHeader, null, /*#__PURE__*/React.createElement(ModalHeaderClose, {
+  }, /*#__PURE__*/_react.default.createElement(ModalHeader, null, /*#__PURE__*/_react.default.createElement(ModalHeaderClose, {
     role: "button",
     title: "Close",
     "aria-label": "Close",
@@ -89,12 +89,12 @@ function HrnetModal(_ref) {
     style: {
       color: xCloseColor
     }
-  }, "X"), /*#__PURE__*/React.createElement(ModalTitle, {
+  }, "X"), /*#__PURE__*/_react.default.createElement(ModalTitle, {
     id: "dialog-:r1:-title",
     style: {
       color: titleColor
     }
-  }, title)), /*#__PURE__*/React.createElement(ModalBody, null, message), /*#__PURE__*/React.createElement(ModalFooter, null, okButton ? /*#__PURE__*/React.createElement(ModalBtn, {
+  }, title)), /*#__PURE__*/_react.default.createElement(ModalBody, null, message), /*#__PURE__*/_react.default.createElement(ModalFooter, null, okButton ? /*#__PURE__*/_react.default.createElement(ModalBtn, {
     id: "okButton",
     "aria-label": "Close Modal",
     type: "button",
@@ -105,7 +105,7 @@ function HrnetModal(_ref) {
       color: isOkHover ? okButtonColorHover : okButtonColor,
       backgroundColor: isOkHover ? okButtonBgHover : okButtonBg
     }
-  }, "Ok") : '', cancelButton ? /*#__PURE__*/React.createElement(ModalBtn, {
+  }, "Ok") : '', cancelButton ? /*#__PURE__*/_react.default.createElement(ModalBtn, {
     id: "cancelButton",
     "aria-label": "Cancel Modal",
     type: "button",
