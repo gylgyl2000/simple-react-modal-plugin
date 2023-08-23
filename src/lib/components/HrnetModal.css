@@ -1,0 +1,159 @@
+/* body {
+  color: #e9ebf0;
+  font-family: Apple-System,Arial,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STXihei,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+} */
+
+/* *, ::after, ::before {
+  box-sizing: border-box;
+} */
+/* .hrnetModal__backdrop {
+  pointer-events: unset;
+  background-color: rgba(15,19,26,.8);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1049;
+} */
+/* .hrnetModal__wrapper {
+  margin: 20vh auto;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+  outline: none;
+} */
+/* .hrnetModal {
+  display: block;
+  margin: 20vh auto;
+  width: 400px;
+  max-width: calc(100% - 10px);
+  outline: 0;
+  overflow: visible;
+  position: relative;
+  z-index: 1050;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+  animation-name: bounceIn;
+  animation-timing-function: cubic-bezier(.68,-.55,.27,1.55);
+} */
+/* .hrnetModal__content {
+  background-color: #292d33;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0,0,0,.12),0 0 10px rgba(0,0,0,.06);
+  outline: 0;
+  padding: 20px;
+  position: relative;
+} */
+/* .hrnetModal__header {
+  padding-right: 20px;
+}
+.hrnetModal__header::after {
+  clear: both;
+}
+.hrnetModal__header::after, .hrnetModal__header::before {
+  content: " ";
+  display: table;
+} */
+/* .hrnetModal__header-close {
+  color: #a4a9b3;
+  font-size: 12px;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  outline: none !important;
+} */
+/* .hrnetModal__title {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+} */
+/* .hrnetModal__body {
+  overflow: auto;
+  max-height: 136px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: left;
+} */
+/* .hrnetModal__footer {
+  border-top: none;
+  text-align: right;
+}
+.hrnetModal__footer::after {
+  clear: both;
+}
+.hrnetModal__footer::after, .hrnetModal__footer::before {
+  content: " ";
+  display: table;
+} */
+/* .hrnetModal__btn {
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color .15s ease-out,background-color .15s ease-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+} */
+#okButton {
+  background-color: #169de0;
+  border: none;
+  color: #fff;
+}
+#okButton:hover {
+  background-color: #25b3f5;
+  color: #fff;
+}
+#cancelButton {
+  margin-bottom: 0;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: #a4a9b3;
+}
+#cancelButton:hover {
+  background-color: #5c6066;
+  color: #e9ebf0;
+}
+
+/* @keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+} */
